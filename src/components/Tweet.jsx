@@ -1,4 +1,8 @@
-function Tweet() {
+import ProfileImage from "./ProfileImage";
+import User from "./User";
+import Timestamp from "./Timestamp";
+
+function Tweet(props) {
   return (
     <div className="tweet">
       <img
